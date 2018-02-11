@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container {
+    width:901px;
+    margin: 0 auto;
+}
+header {
+    background-color: bisque;
+    height:100px;
+}
+h1 {
+    font-family:'Yellowtail','cursive';
+    font-size:2.6em;
+    display:inline;
+    vertical-align: middle
+}
+.icon-container {
+    float:right;
+}
+.logo-text-container {
+    background-color: green;
+    display:inline;
+    height:80px;
+}
+header p {
+    font-family:'Calibri',sans-serif;
+    text-transform:uppercase;
+    font-weight:100;
+    font-size:.5em;
+    display:inline;
+}
+.social-menu, .contact-menu, .ingredients-list{
+    list-style: none;
+}
+.social-menu, .contact-menu {
+    display:inline-block;
+}
+.social-menu {
+    margin-right:10px;
+}
+.social-menu li, .contact-menu li {
+    display:inline-block;
+}
+h2 {
+    font-family:'Franklin Gothic EF Extra Condensed';
+}
+.yellow-paper {
+    height:200px;
+    background-color: #FDFAEB;
+}
+.ingrdOne, ingrdTwo {
+    float:left;
+}
+
