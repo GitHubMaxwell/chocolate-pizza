@@ -5,6 +5,7 @@
 }
 .container {
     max-width:901px;
+    min-width:501px;
     margin: 0 auto;
 }
 header {
@@ -66,12 +67,25 @@ h2 {
     font-weight:600;
     font-size: 2.5em;
 }
+.title{
+    float:left;
+}
+#print-icon {
+    height:13px;
+    float:right;
+    margin-top:50px;
+}
 .section-header {
     margin:50px 0 30px 0;
+    overflow:auto;
+}
+#cp-img {
+    width:100%;
 }
 .section-content p {
-    text-indent: 50px;
-    color:#525857;
+    text-indent: 20px;
+    font-size: 1.1em;
+    color:#6a7271;
     margin: 8px 0 0px 0;
 }
 .yellow-paper {
