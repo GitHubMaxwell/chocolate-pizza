@@ -4,33 +4,47 @@
     padding:0;
 }
 .container {
-    width:901px;
+    max-width:901px;
     margin: 0 auto;
 }
 header {
-    background-color: bisque;
     height:100px;
+    position:relative;
+}
+nav {
+    position:absolute;
+    top:30px;
+    overflow:auto;
+    width: 100%;
+}
+header img {
+    float:left;
 }
 h1 {
     font-family:'Yellowtail','cursive';
     font-size:2.6em;
-    display:inline;
-    vertical-align: middle
-}
-.icon-container {
-    float:right;
+    line-height: 0.9;
+    font-weight:500;
 }
 .logo-text-container {
-    background-color: green;
-    display:inline;
-    height:80px;
+    float:left;
+    margin-left:4px;
 }
-header p {
+header p, .section-header p{
     font-family:'Calibri',sans-serif;
     text-transform:uppercase;
     font-weight:100;
     font-size:.5em;
-    display:inline;
+    margin-left:3px;
+}
+.section-header p {
+    margin-left:0;
+    font-size:.7em;
+    color:#A5A9AA;
+}
+.icon-container {
+    margin-top:12px;
+    float:right;
 }
 .social-menu, .contact-menu, .ingredients-list{
     list-style: none;
@@ -44,12 +58,29 @@ header p {
 .social-menu li, .contact-menu li {
     display:inline-block;
 }
+.slash-divider {
+    width:901px;
+}
 h2 {
-    font-family:'Franklin Gothic EF Extra Condensed';
+    font-family:'Impact', sans-serif;
+    font-weight:600;
+    font-size: 2.5em;
+}
+.section-header {
+    margin:50px 0 30px 0;
+}
+.section-content p {
+    text-indent: 50px;
+    color:#525857;
+    margin: 8px 0 0px 0;
 }
 .yellow-paper {
     height:200px;
     background-color: #FDFAEB;
+    border-radius: 3px;
+}
+.ingredients-list li{
+    margin: 0 0 5px 0;
 }
 .ingrdOne, ingrdTwo {
     float:left;
